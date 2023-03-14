@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Membership Plans">b7ca51b561ed21107f449249ff639dd6</sc_cat_item>
+        <sc_catalog display_value="CWM VIP Catalog">afc851f161ed21107f449249ff639ddd</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hunter.odell</sys_created_by>
+        <sys_created_on>2023-03-13 18:50:46</sys_created_on>
+        <sys_id>d6fbd1f561ed21107f449249ff639d39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CWM VIP Catalog.Membership Plans</sys_name>
+        <sys_package display_value="CWM VIP Requests" source="x_cdltd_cwm_vip_re">67952c7961e921107f449249ff639d0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CWM VIP Requests">67952c7961e921107f449249ff639d0f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d6fbd1f561ed21107f449249ff639d39</sys_update_name>
+        <sys_updated_by>hunter.odell</sys_updated_by>
+        <sys_updated_on>2023-03-13 18:50:46</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CWM VIP Requests">67952c7961e921107f449249ff639d0f</application>
+        <file_path/>
+        <instance_id>2749a1259769a110ed309a34a253af55</instance_id>
+        <instance_name>adf-mar12-683-dev-003</instance_name>
+        <name>sc_cat_item_catalog_d6fbd1f561ed21107f449249ff639d39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Membership Plans">b7ca51b561ed21107f449249ff639dd6</sc_cat_item><sc_catalog display_value="CWM VIP Catalog">afc851f161ed21107f449249ff639ddd</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>hunter.odell</sys_created_by><sys_created_on>2023-03-13 18:50:46</sys_created_on><sys_id>d6fbd1f561ed21107f449249ff639d39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CWM VIP Catalog.Membership Plans</sys_name><sys_package display_value="CWM VIP Requests" source="x_cdltd_cwm_vip_re">67952c7961e921107f449249ff639d0f</sys_package><sys_policy/><sys_scope display_value="CWM VIP Requests">67952c7961e921107f449249ff639d0f</sys_scope><sys_update_name>sc_cat_item_catalog_d6fbd1f561ed21107f449249ff639d39</sys_update_name><sys_updated_by>hunter.odell</sys_updated_by><sys_updated_on>2023-03-13 18:50:46</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>687925350</payload_hash>
+        <record_name>CWM VIP Catalog.Membership Plans</record_name>
+        <reverted_from/>
+        <source>2b952c7961e921107f449249ff639d11</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>hunter.odell</sys_created_by>
+        <sys_created_on>2023-03-13 18:50:46</sys_created_on>
+        <sys_id>12fbd1f561ed21107f449249ff639d3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186dc4f8d410000001</sys_recorded_at>
+        <sys_updated_by>hunter.odell</sys_updated_by>
+        <sys_updated_on>2023-03-13 18:50:46</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5afbd1f564ed2110cadbdb9c1a8dec3c</update_guid>
+        <update_guid_history>5afbd1f564ed2110cadbdb9c1a8dec3c:687925350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CWM VIP Catalog.Membership Plans">623b2131616161107f449249ff639d68</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hunter.odell</sys_created_by>
+        <sys_created_on>2023-03-13 19:57:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2d81ac2116a44cae899805fd1b414cc1</sys_id>
+        <sys_metadata>d6fbd1f561ed21107f449249ff639d39</sys_metadata>
+        <sys_name>CWM VIP Catalog.Membership Plans</sys_name>
+        <sys_package display_value="CWM VIP Requests" source="x_cdltd_cwm_vip_re">67952c7961e921107f449249ff639d0f</sys_package>
+        <sys_parent display_value="RJ Katana-Bonanza Experience">b7ca51b561ed21107f449249ff639dd6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CWM VIP Requests">67952c7961e921107f449249ff639d0f</sys_scope>
+        <sys_scope_delete display_value="">5def5669129140bca03d75ee33551bc4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d6fbd1f561ed21107f449249ff639d39</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d6fbd1f561ed21107f449249ff639d39">12fbd1f561ed21107f449249ff639d3d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
