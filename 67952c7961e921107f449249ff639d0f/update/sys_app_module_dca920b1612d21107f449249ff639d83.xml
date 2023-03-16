@@ -4,7 +4,9 @@
         <application display_value="CWM VIP Requests">40a920b1612d21107f449249ff639d78</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="sc_request">request_stateINclosed_complete,closed_incomplete,closed_cancelled,closed_rejected,closed_skipped^EQ<item display_value="closed_complete,closed_incomplete,closed_cancelled,closed_rejected,closed_skipped" endquery="false" field="request_state" goto="false" newquery="false" operator="IN" or="false" value="closed_complete,closed_incomplete,closed_cancelled,closed_rejected,closed_skipped"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -12,7 +14,7 @@
         <map_page/>
         <mobile_title>Closed</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_cdltd_cwm_vip_re_cwm_vip_req_table</name>
+        <name>sc_request</name>
         <order>6</order>
         <override_menu_roles>false</override_menu_roles>
         <query>active=false^EQ</query>
@@ -24,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dca920b1612d21107f449249ff639d83</sys_id>
-        <sys_name>Closed</sys_name>
+        <sys_name>sc_request</sys_name>
         <sys_overrides/>
         <sys_package display_value="CWM VIP Requests" source="x_cdltd_cwm_vip_re">67952c7961e921107f449249ff639d0f</sys_package>
         <sys_policy/>
