@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd692c71612d21107f449249ff639d53" extends="task" label="CWM VIP Req Table" max_length="40" name="x_cdltd_cwm_vip_re_cwm_vip_req_table" type="collection">
+        <element attributes="encode_utf8=false" dependent="experience" dependent_on_field="experience" label="Catalog Item Description" max_length="32" name="catalog_item_description" reference="x_cdltd_cwm_vip_re_cwm_vip_req_table" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="prestige worldwide experience" label="Experience" max_length="40" name="experience" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Prestige World Wide" sequence="0" value="prestige worldwide experience"/>
+                <element inactive="true" inactive_on_update="true" label="Prestige World Wide" sequence="0" value="prestige world wide"/>
+                <element inactive_on_update="false" label="RJ Katana Bonanza" sequence="1" value="rj katana bonanza experience"/>
+                <element inactive="true" inactive_on_update="true" label="RJ Katana Bonanza" sequence="1" value="rj katana bonanza"/>
+                <element inactive_on_update="false" label="Sangria Experience" sequence="2" value="sangria experience"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" dependent="price" dependent_on_field="price" label="Price" max_length="20" name="price" reference="x_cdltd_cwm_vip_re_cwm_vip_req_table" type="price" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="experience" dependent_on_field="experience" label="Requested For" mandatory="true" max_length="40" name="requested_for" reference="sys_user" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Special Request" max_length="4000" name="special_request" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Special Requests" max_length="255" name="special_requests" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_1" read_only="true" type="price"/>
+        <element attributes="encode_utf8=false" dependent="experience" dependent_on_field="experience" label="Requested For" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference" use_dependent_field="true"/>
+    </element>
+</database>

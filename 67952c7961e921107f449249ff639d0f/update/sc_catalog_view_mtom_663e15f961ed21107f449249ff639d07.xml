@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="CWM VIP Catalog">afc851f161ed21107f449249ff639ddd</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>evan.mead</sys_created_by>
+        <sys_created_on>2023-03-13 19:00:37</sys_created_on>
+        <sys_id>663e15f961ed21107f449249ff639d07</sys_id>
+        <sys_name>CWM VIP Catalog.Catalog</sys_name>
+        <sys_package display_value="CWM VIP Requests" source="x_cdltd_cwm_vip_re">67952c7961e921107f449249ff639d0f</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="Catalog">453809e40a04bfde001fb14e5729693d</sys_portal_page>
+        <sys_scope display_value="CWM VIP Requests">67952c7961e921107f449249ff639d0f</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_663e15f961ed21107f449249ff639d07</sys_update_name>
+    </sc_catalog_view_mtom>
+</record_update>
